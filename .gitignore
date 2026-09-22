@@ -1,0 +1,13 @@
+target/
+*.jar
+*.class
+*.log
+.idea/
+*.iml
+nbproject/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+/avcar-cp.txt
+/tmp/
