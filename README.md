@@ -1,4 +1,4 @@
-# av_car_app — Frontend (Java Swing)
+# av_car_app: Frontend (Java Swing)
 
 Frontend desktop do **AV-CAR**, construído em **Java Swing** com tema escuro **FlatLaf**. Esta pasta também contém o bootstrap do Spring Boot (`AvCarApplication`), responsável por subir o contexto Spring e abrir a interface.
 
@@ -20,7 +20,7 @@ Frontend desktop do **AV-CAR**, construído em **Java Swing** com tema escuro **
 
 ## Como compilar e rodar
 
-A app depende do ar de `av-car` instalado no repositório local do Maven. Execute antes, na pasta `av_car-api`:
+A app depende do jar de `av-car` instalado no repositório local do Maven. Execute antes, na pasta `av_car_api`:
 
 ```bash
 mvnw install
@@ -41,5 +41,5 @@ java -jar target/av-car-app-1.0.0.jar
 
 ## Ambiente
 
-* **JDK:** 21 (obrigatório — o JDK 25 quebra a compilação do Lombok)
+* **JDK:** 21 (obrigatório; o JDK 25 quebra a compilação do Lombok)
 * **Banco:** variáveis definidas no `av_car_infra/.env`, lidas automaticamente pelo Spring com valores padrão no `application.yml`
